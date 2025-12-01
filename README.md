@@ -182,7 +182,7 @@ npx prisma generate
 npx prisma migrate dev
 
 # Seed initial data (creates default admin account)
-npx prisma db seed
+npm run prisma:seed
 ```
 
 6. **Start development server**
